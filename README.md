@@ -145,6 +145,9 @@ code in production environments.
 
 ## Prerequisites
 
+**The target environment must have a dataverse data store**
+This will be needed to import the solution as well as store the indexed knowledge articles.
+
 Before importing this solution, ensure the following managed solution is installed in the target Power Platform environment.
 
 | Requirement | Value |
@@ -156,8 +159,6 @@ Before importing this solution, ensure the following managed solution is install
 > ⚠️ **Important**  
 > Import will fail if this managed solution is not present in the environment.
 
-**The target environment must have a dataverse data store**
-This will be needed to import the solution as well as store the indexed knowledge articles.
 
 ### Version Parameters
 
