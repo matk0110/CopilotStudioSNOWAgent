@@ -1,6 +1,59 @@
 
 # ServiceNow Conversational Agent Demo
 
+## Repository Contents
+
+- **README.md**  
+  High‑level overview of the demo, including prerequisites and setup guidance.  
+  This section explains what is required before importing anything into the Power Platform environment.
+
+- **ServiceNow Agent Configuration Guide**  
+  Step‑by‑step walkthrough (with screenshots) covering:
+  - Provisioning or validating a ServiceNow Developer instance
+  - Creating the ServiceNow connection in Power Platform
+  - Importing the solution
+  - Configuring the Copilot Studio agent:
+    - Knowledge sources  
+    - Tools  
+    - Topics  
+    - Conversation start
+  - Running validation and test scenarios
+
+- **Solution Package (`.zip`)**  
+  Packaged Power Platform solution to import into the target environment.  
+  Includes the Copilot Studio agent and all related components required for the demo, such as:
+  - Tool actions
+  - Configuration artifacts
+
+## How to Get Started
+
+1. **Review prerequisites**
+   - Read `README.md` and confirm you meet all prerequisites.
+   - Ensure your **target Power Platform environment**:
+     - Has **Dataverse enabled**
+     - Allows you to **create connections**
+     - Allows you to **import solutions**
+
+2. **Download the solution**
+   - Download the **solution `.zip`** file from this repository to your local machine.
+
+3. **Follow the ServiceNow Agent Configuration Guide**
+   
+   Complete the steps in order as documented in the guide:
+
+   - *(Optional)* Provision a **ServiceNow Developer instance**
+   - Create the **ServiceNow connection** in Power Platform
+   - Import the **solution `.zip`** into your target environment
+   - Configure the Copilot Studio agent:
+     - Knowledge
+     - Tools
+     - Custom Topics
+     - Conversation Start
+
+4. **Run validation tests**
+   - Execute the **“Validation / Test Plan”** at the end of the guide.
+
+
 ## Purpose
 
 This repository demonstrates how to build a **value‑driven conversational ServiceNow agent** using **Copilot Studio**.  
