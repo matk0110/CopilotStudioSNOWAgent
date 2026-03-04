@@ -145,8 +145,12 @@ code in production environments.
 
 ## Prerequisites
 
+A Power Platform Environment with permissions to create connections and import solutions
+
 **The target environment must have a dataverse data store**
 This will be needed to import the solution as well as store the indexed knowledge articles.
+
+A ServiceNow dev instance with read right access to knowledge and incidents records (steps in guide on how to provision a demo space)
 
 Before importing this solution, ensure the following managed solution is installed in the target Power Platform environment.
 
